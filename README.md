@@ -13,8 +13,6 @@ keyword-api 搜索引擎api-关键字-提取程序
 
 ## 目录结构说明
 
-
-
 ### 渠道api接口
 * baidu.py: 百度
 * qihu360.py: 奇虎360
