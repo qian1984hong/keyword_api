@@ -13,6 +13,8 @@ keyword-api 搜索引擎api-关键字-提取程序
 
 ## 目录结构说明
 
+
+
 ### 渠道api接口
 * baidu.py: 百度
 * qihu360.py: 奇虎360
@@ -25,7 +27,7 @@ keyword-api 搜索引擎api-关键字-提取程序
 		* 刷新token(此功能通常供回调url调用): python toutiao.py refresh_token authCode
 		* 抽取数据: python toutiao.py execute YYYY-MM-DD [downloadPath]
 	* 参数:downloadPath 可选, 如不指定, 默认目录: 工程主目录/download
-    
+
 ### 脚本
 * keyword_script.py: **主程序**
 * toutiao_refresh_token.sh: 今日头条回调url脚本(springboot会接受请求,并予以调用[http://192.168.24.60:8080/api/auth/toutiao/callback])
